@@ -1,5 +1,5 @@
-baseURL = "http://localhost:1313/subdir"
-title = "Puppet"
+baseURL = "http://localhost:1313/"
+title = "Hi I'm feles"
 
 theme = "puppet"
 
@@ -21,7 +21,7 @@ googleAnalytics = ""
 [outputs]
 home = ["HTML", "JSON", "RSS"]
 
-# prevent build failures when using Hugo's template _internal/opengraph.html 
+# prevent build failures when using Hugo's template _internal/opengraph.html
 [taxonomies]
 category = "categories"
 tag = "tags"
@@ -68,9 +68,9 @@ weight = 100
 
 
 [params]
-author = "Puppet"
-description = "A simple and clean theme for Hugo"
-keywords = "blog,developer,personal"
+author = "feles"
+description = "This is feles's portfolio site."
+keywords = "blog,developer,personal,portfolio"
 img_home = "img/home-bg.jpg"
 img_404 = "img/404-bg.jpg"
 
@@ -87,36 +87,17 @@ avatar = "img/home-bg.jpg"
 bio = "a personal website"
 
 [params.social]
-twitter = "feles"
-facebook = "johndoe"
-zhihu = "johndoe"
-weibo = "johndoe"
-github = "johndoe"
-gitlab = "johndoe"
-linkedin = "johndoe"
-rss = true
-[params.social.mastodon]
-weight = 56
-icon = "fab fa-mastodon"
-format = "https://mastodon.social/%v"
-id = "johndoe"
-url = ""
-
-[[params.friends]]
-name = "John Doe"
-url = "https://gohugo.io"
-
-[[params.friends]]
-name = "John Doe"
-url = "https://gohugo.io"
+twitter = "ao_42"
+facebook = "100015020702906"
+github = "feles-ao42"
 
 # See https://giscus.app/
-[params.giscus]
-enable = true
-repo = "roninro/hugo-theme-puppet"
-repo_id = "R_kgDOHuvyhw"
-category = "General"
-category_id = "DIC_kwDOHuvyh84CQjDo"
-input_position = "top"
-theme = "light_tritanopia"
-lang = "en"
+#[params.giscus]
+#enable = true
+#repo = "roninro/hugo-theme-puppet"
+#repo_id = "R_kgDOHuvyhw"
+#category = "General"
+#category_id = "DIC_kwDOHuvyh84CQjDo"
+#input_position = "top"
+#theme = "light_tritanopia"
+#lang = "en"
